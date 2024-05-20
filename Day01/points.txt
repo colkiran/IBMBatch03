@@ -1,0 +1,171 @@
+Python
+-------
+founder  of python - guido van russum
+
+
+Open Source Technology	 - Source Code is available free
+---------------------------------------------------------
+1. Ready made functions for everything
+
+array - find the length of the array
+
+C  or C++  -> iterate through the collection and find the last element of the list (null value) - for loop 
+
+5 to 6 lines of code
+
+l1 = [1..50]
+print(len(l1))
+
+
+1. Python code gets interpreted
+
+2. data type is dynamic
+
+python 
+------
+a = 10
+print(a)
+
+a = "hello world"
+
+
+C or C++
+--------
+int i
+i = 10
+
+Python
+------
+Desktop Application 	-	Tkinter
+
+Web Application		-	Flask, Django - MVC pattern, REST API
+
+Mobile Application	-	Kivy
+
+Testing			-	unittest, pytest, Robot Framework
+
+Automation		-	Paramiko
+
+Web Scrapping		-	Beautiful Soup, Request
+
+Data Science		-	
+
+Data Analytics		-	numpy, pandas, matplotlib and seaborn
+
+Machine Learning	-	ML
+
+AI			-	siri, gesture control
+
+Generative AI		
+-------------
+
+----------------------------------------------------------------------
+pip install lib_name -	gets connected to the python repository online
+
+result lib_name.whl -
+
+www.python.org
+--------------
+3.11.x
+
+1. Python SDK - libraries necessary to execute the python code
+
+2. Python shell - interactive environment
+
+3. IDLE - Integrated Development Environment (editor)
+
+
+Editors
+-------
+VS code (Community Edition)
+
+PyCharm (Community Edition)
+
+Eclipse (add plugins to work with python)
+
+sublime text
+
+ML / AI
+-------
+Anaconda and Jupyter Notebook
+
+google colabs
+
+Python has two operator that a is overloaded
+
++ operator
+----------
+1. addition of numbers
+2. concatenation of strings
+
+
+* operator
+----------
+1. multiplication
+2. to print a string n number of times
+
+Primitive data types in Python
+------------------------------
+
+1. String
+
+2. Number
+   a. integer
+   b. float
+   c. long  - 92032938492384082309234890L	- Depricated
+   d. complex
+
+3. Boolean
+
+Virtual Environment
+-------------------
+What is virtual environment
+----------------------------
+isolated space created 
+
+Coding Rules
+-------------
+
+#! - shebang - gives the path of python.exe
+
+comments in python
+------------------
+# is the only way to create comments in python and its a single line comment
+
+doc strings
+-----------
+will be written on top of the function that will describe the function
+
+strings in python are enclosed in two ways - "" and the other is ''
+
+"This is a simple function which displays message"
+
+"""
+the function takes 3 args
+first arg is a string
+second arg is a integer
+third arg is a Boolean and its optional
+"""
+
+indentation(spaces in tabs)
+---------------------------
+we don't use paranthesis
+
+1. if condition
+
+2. loops
+
+3. functions
+
+4. class
+
+
+	
+
+
+
+
+
+
+
+
