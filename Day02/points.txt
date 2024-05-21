@@ -1,0 +1,208 @@
+0101	- 0 + 2 ** 2 + 0 + 2 ** 0  => 0 + 4 + 0 + 1 = 5
+0011	- 0 + 0 + 2 ** 1 + 2 ** 0  => 0 + 0 + 2 + 1 = 3
+
+OR
+---
+0101
+0011
+----
+0111  = 0 + 2 ** 2 + 2 ** 1 + 2 ** 0 => 0 + 4 + 2 + 1 = 7
+----
+
+XOR
+---
+0	0	0
+0	1	1
+1	0	1
+1	1	0
+
+0101
+0011
+----
+0110 = 2 ** 2 + 2 ** 1 = 4 + 2 = 6
+----
+
+<<
+
+0101 =>  1010 = 2 ** 3 + 2 ** 1  = 8 + 2 = 10
+
+1000 => 10000 = 2 ** 4 = 16
+
+0101 => 1010 => 10100 => 2 ** 4 + 2 ** 2 = 16 + 4 = 20
+
+>>
+
+10000 => 1000 = 2 ** 3 => 8
+
+0101 => 0010 = 2 ** 1 => 2
+
+
+loops and control structures
+----------------------------
+control structures
+------------------
+if condition
+
+accept data from the user
+-------------------------
+2.x
+---
+raw_input  - accept data in string data type
+input	   - accept data in numbers
+
+3.x
+---
+input      - accept data in string data type
+
+
+Loops
+-----
+1. for loop
+2. while loop
+
+for loop in python is same as foreach loop 
+
+foreach loop depends on a collection
+
+for loop depends on a collection
+
+collection is provided by range function
+
+range(1, 10) => 1..9
+
+range(10) = 0..9
+
+range(1, 11) => 1..10
+
+range(initial_val, final_val, incr) - incr is 1 by default
+
+range(1, 50, 2) => 25 iterations
+range(2, 50, 2) => 25 iterations
+
+range(10, 0, -1) = 10..1
+
+a. continue 	- skip the current iteration
+b. break	- stop the current iteration 
+c. else		- execute the else part
+
+
+1. print the following pattern
+
+1 2 3 4 5 
+ 1 2 3 4
+  1 2 3
+   1 2
+    1
+   2 1
+  3 2 1
+ 4 3 2 1
+5 4 3 2 1
+
+2. print all prime numbers between 150 and 50
+
+Strings
+-------
+string can be stored in '' or ""
+
+single line string are stored in '' or ""
+
+"this is a string"
+
+'this is a string'
+
+multiline strings are stored on """ """ or ''' '''
+
+"""
+ this is the first line
+ this is the second line
+ this is the third line
+"""
+
+'''
+ this is the first line
+ this is the second line
+ this is the third line
+'''
+
+STRINGS ARE IMMUTABLE
+---------------------
+
+in str class we don't have a setter method
+
+class Employee:
+
+    def __init__(self, name):
+	self.name = name     
+
+    # getter method
+    def get_detials(self):
+       print(f"name is :{self.name}")
+
+    # setter method 
+    def set_details(self, nm):
+        self.name = nm
+
+
+
+emp1 = Employee("Jack")
+emp1.get_details()    =>   "Jack"
+
+emp1.set_details("Robert")
+emp1.get_details()    =>   "Robert"
+
+Python Data Structures
+----------------------
+1. Lists
+2. Dictionaries
+3. Tuples
+4. Sets
+
+
+Lists
+-----
+list are similar to arrays
+
+arrays
+------
+1. collection of homogenous data
+2. memory allocation is contiguous
+
+Lists
+-----
+1. lists are collection of heterogenous data
+2. memory allocation is not contiguous
+3. lists are ordered collection
+4. lists are mutable
+5. lists are enclosed in [] 
+
+
+List Manipulation functions
+---------------------------
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+functions to add values
+-----------------------
+1. append
+2. extend
+3. insert
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
