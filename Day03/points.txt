@@ -1,0 +1,74 @@
+Delete values from a list
+-------------------------
+
+1. pop
+2. remove
+3. clear
+
+4. copy 
+5. count
+6. index
+7. sort
+8. reverse
+
+l1 = [1, 2, 3, 1, 1, 1, 2, 3]
+
+l1.index(3) => 2
+
+l1.index(3, l1.index(3) + 1)
+
+
+Dictionary
+----------
+1.associative arrays
+
+index	-  0    1    2    3    4    5
+value 	- 'a', 'b', 'c', 'd', 'e', 'f'	
+
+{0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e', 5: 'f'}
+
+0, 1, 2, 3, 4, 5 	 = keys
+'a', 'b', 'c', 'd', 'e'  = values
+
+2. keys are user defined and keys are always unique
+
+3. they are mutable
+
+4. they are enclosed on { }
+
+Functions to manipulate Dictionary
+-----------------------------------
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+
+
+Assignment
+----------
+1. write a code to create a identity matrix 
+
+2. months = ['dec', 'aug', 'apr', 'jun', 'sep', 'mar', 'oct', 'jan', 'nov', 'may', 'jul', 'feb']
+
+sort these months like calendar dates
+
+3. write a code to do a transpose of a matrix
+
+
+Explain
+-------
+3. write a code to create magic matrix
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
