@@ -1,0 +1,107 @@
+Decorator
+---------
+what is decorator?
+
+decorator is a function which will change the behaviour of another function without touching its code
+
+Hello
+Apples from ooty
+Hi......
+------------------
+Mera Bharath Mahan
+Oranges from kanpur
+India is great
+
+
+OOPS
+-----
+Object Oriented Programming
+
+1. Inheritance
+
+2. Encapsulation
+
+3. Abstraction
+
+4. Polymorphism
+
+
+ATM
+---
+Encapsulation
+
+Abstraction
+
+Polymorphism
+
+shopping card 	-  40k
+
+golden card 	-  1 lakh 
+
+platinum	-  2.5 lakh
+
+Inheritance
+
+SBI 
+---
+
+class fourdigit_pin:
+    pass
+
+
+class OTP(fourdigit_pin):
+
+	
+self in python oops
+-------------------
+
+ply1 = Player()
+
+ply1.get_details()
+
+
+ply2 = Player()
+
+ply2.get_details()
+
+
+def get_details(self)
+
+self will have the name of the object that called the class
+
+ply1.get_details()
+
+self will have ply1 stored in it.
+
+ply1.name 
+
+ply1 = __dict__  - {name: 'sachin', 'age': 30}
+
+
+Class Method
+------------
+class method can be accessible with class name, class methods are bound to class rather than an object
+
+
+Assignment
+----------
+create a class method
+---------------------
+
+ply2 = Player.CreatePlayer(fn, ln, dob)
+
+convert the dob to age
+
+
+Operator Overloading
+--------------------
+operator - associated with a method 
+= __add__, __str__, __eq__	- slang - magic methods
+
+
+
+
+
+
+
+
