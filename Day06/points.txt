@@ -1,0 +1,38 @@
+from functools import total_ordering
+
+@total_ordering
+class Employee
+     pass
+
+
+total_ordering 
+---------------
+1. we have to overload == operator (mandatory)
+
+2. with == operator overload any one operator
+
+3. now implement the decorator total_ordering to the class, the class will work on any comparison operator
+
+
+convert getter, setter and delter as properties
+
+Inheritance
+-----------
+multiple inheritance
+multi level inheritance
+
+Abstract class
+--------------
+
+
+
+
+Polymorphism
+
+
+
+
+
+
+
+
