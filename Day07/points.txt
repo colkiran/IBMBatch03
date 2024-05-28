@@ -1,0 +1,131 @@
+Packages and Modules
+--------------------
+Modules
+-------
+modules are same as libraries, any python file can be considered as a module. Python modules have the same extension of a python file.
+
+Packages
+--------
+packages are folders / directories that stores one or more modules inside it.
+
+import mymodule
+
+1. mymodule.py => __pycache__ / mymodule.cpython_311.pyc
+
+2. search for the modules in sys.path if modules exist then convert it into .pyc files and import it into your files
+
+
+3. python compares the date and time of .py and .pyc files and expects .pyc file to have the latest date and time compared to .py file
+
+
+
+import mymodule
+import mymodule as m
+import mypackage.mymodule as m
+
+from mymodule import greet
+from mymodule import Player
+
+from mypackage import *	
+
+packages are always compared with classes
+
+classes  have a constructor  __init__.py
+
+packages have a file __init__.py - that gets executed first
+
+
+Regular Expressions
+-------------------
+what are regular expressions?
+
+glob style
+----------
+* - series of characters
+
+? - single character
+
+dir *.txt  - display all files with extension .txt
+
+dir ?a*.txt - all files with second character as 'a'
+
+--------------------------------------------------------
+pending tickets
+---------------
+
+this ticket no 923492347 registered on 23/04/2024
+
+regex module
+------------
+basic regular expressions
+-------------------------
+
+.		-	single character (anything)
+
+
+^		-	Beginning of the string
+$		-	End of the string
+
+*		-	zero or more occurrence of a character
+?		-	zero or one occurrence of a character
++ 		-	one ore more occurrence of a character
+
+{n}		-	exactly n times
+
+{n,}		-	min n times max infinite times
+
+{n, m}		-	min n times and max m  times
+
+[ ]		-	character class
+
+( )		-	grouping
+
+|		- 	or operator (Alternation)
+
+\		-	supressing the regex characters
+
+
+
+License Number
+--------------
+LCNO-KAR-05-2009-2389
+
+LCNO- 	Same no changes
+
+KAR - KAR, KER, APN, TND, MAH, TEL
+
+05 - RTO - 01 - 73 (no 00)
+
+2009 - year - 2000+
+
+2389 - 0001 - 9999
+
+
+st = "LCNO-KAR-"
+
+LCNO-KAR-
+
+RRO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
