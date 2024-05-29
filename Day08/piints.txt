@@ -1,0 +1,101 @@
+\w	- word			- accepts alpha numeric characters
+
+\W	- non word		- accepts only special characters
+
+\s	- space			- accepts only spaces
+
+\S	- non space		- accepts all non space characters
+
+\d	- digits		- accepts only numeric data
+
+\D	- non digit		- all non numeric characters
+
+\b	- word boundary
+
+\B	- non word boundary
+
+\A	- beginning of the string
+
+\Z	- End of the string
+
+-----------------------------------------------------------------------------------
+
+date
+----
+dd/mm/yyyy
+
+
+dd - 01 - 31
+mm - 01 - 12
+yyyy - 1900
+
+valid
+-----
+dd/mm/yyyy
+dd-mm-yyyy
+
+invalid date
+------------
+dd/mm-yyyy
+dd-mm/yyyy
+
+compile
+findall
+finditer
+
+
+write a code get the data 
+	before the / 
+	between the /
+	after the /
+
+from the url.
+
+https://www.google.com/search?h/petsexpert/siamese-cat-price-in-india/blog/macaws-prices-purchase-cost-supplies-food-and-more/mynextpet.in/macaw-parrot-price-in-india/?result.aspx
+
+
+File Handling
+-------------
+Text files	- ascii format
+-----------
+Modes of opening a file
+-----------------------
+r 	- read mode - only read the contents of the file, if the file is not 		present  then raises an exception file not found. its the default mode of 	opening the file
+
+
+w 	- write mode - only write the contents of the file, if the file is not 		present then creates a new file and writes into it. if the file is already 	present then deletes the content of the file and writes newly into the 	file.
+
+
+a 	- append mode - only write the contents of the file, if the file is not 	present then creates a new file and writes into it. if the file is 	already present then will append the content to the file without disturbing 	the previous contents
+
+
+Move file handle from one location to another
+---------------------------------------------
+FL.seek(offset, whence)
+
+offset - no of bytes
+whence - 0, 1, 2
+
+
+0 - BOF
+1 - CP
+2 - EOF
+
+FL.seek(10, 0)  - BOF
+
+FL.seek(20, 1)  - CP  - 30
+
+FL.seek(10, 2)  - EOF - EOF + 2
+
+
+['empid', 'empname', 'age', 'dept', 'salary']
+['501', 'Jack', '28', 'HR', '65000']
+['235', 'Jill', '34', 'FIN', '35000']
+['150', 'John', '26', 'AC', '25000']
+['325', 'Jai', '21', 'DEV', '55000']
+['450', 'Guru', '38', 'DEV', '85000']
+['182', 'Sita', '32', 'PRC', '75000']
+['297', 'Gita', '36', 'SUP', '60000']
+
+
+
