@@ -1,0 +1,63 @@
+Json - Read and write Json files
+
+
+MySQL - SQLite3
+----------------
+WAMP server = Windows Apache MySQL and PHP
+
+
+Exceptions
+----------
+try:
+  error prone code
+
+except exception_class:
+
+else:
+
+finally:
+
+
+Flask - Rest API
+----------------
+
+share data between two applications - Notepad
+
+XML - Webservices
+
+Light weight Web applications
+-----------------------------
+1. AngularJS
+
+2. ReactJS
+
+Json - Java script object notation
+
+Json data is very similar to dictionaries
+
+Methods
+-------
+1. get  - get the data
+2. put  - small modification
+3. patch - update
+4. post - add new record
+5. delete - delete a record
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
