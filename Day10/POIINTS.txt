@@ -1,0 +1,56 @@
+get
+
+put
+patch
+post
+delete
+
+
+Beautiful soup
+--------------
+used web scrapping
+
+Logging
+-------
+Debug - 10 - detailed information when diagnosing a problem
+
+Info - 20 - used to confirm that the code is working as expected
+
+Warning - 30 - just an indication that something unexpected happened
+
+Error - 40 - due to some serious problems the software is not executing some 			options
+
+Critical - 50 - serious error, the program is unable to continue running
+
+
+Generators
+----------
+
+comprehension - return the entire list as a result
+
+generators = return values one after another
+
+
+Threads
+-------
+CPU - cores in it
+
+normally the code will get executed synchronously or sequentially
+
+
+Desktop application
+-------------------
+Tkinter
+-------
+python + tk
+-----------
+
+Numpy and Pandas
+----------------
+
+Numpy - numerical python used to handle small arrays of multiple dimensions. its a replacement for lists in python as it is 50x faster compared to lists
+
+
+
+
+
